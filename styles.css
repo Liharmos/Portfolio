@@ -1,0 +1,202 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    background-color: #171d1d;
+    color: white;
+}
+nav{
+    background-color: #0f1111;
+    font-size: 19px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+a,#logo{  
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    margin: 0 5px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+#logo{
+    font-size: 25px;
+    font-weight: bolder;
+    background-color: rgb(83, 76, 76);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav a:hover{
+   border-bottom: 3px solid rgb(226, 226, 226);
+}
+#about{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    box-shadow: 0.5px 0.5px 2px 0.5px #424242;
+    margin: 10px;
+}
+#intro1{
+    padding: 5px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 30px;
+}
+#welcome{
+    font-size: 30px;
+    font-weight: bolder;
+}
+#Name{
+    font-size: 18px;
+    text-align:justify;
+}
+#portfolio{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 0.5px 0.5px 2px 0.5px #424242;
+    margin: 10px;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+.portfolio-item{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #3b3b3b;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+#portfolio a{
+    border: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    box-shadow: 0px 2px 3px rgb(68, 66, 66);
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+    color: white;
+    border-radius: 0px 10px;
+    background-color: rgb(110, 102, 102);
+    margin: 5px;
+    align-self: last baseline;
+}
+#portfolio a:hover,#contact button:hover{
+    background-color: rgb(24, 112, 170);
+    cursor: pointer;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 0.5px 0.5px 2px 0.5px #424242;
+    margin: 10px;
+}
+.form{
+    display: flex;
+    flex-direction: row;
+}
+#contact1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+#contact input{
+    background-color: #171d1d;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    border: 0.5px solid rgb(70, 69, 69);
+    box-shadow: 0px 1px 3px rgb(88, 88, 88);
+}
+#message1{
+    padding: 5px;
+    display: flex;
+    width: 50%;
+}
+textarea{
+    width: 100%;
+    background-color: #171d1d;
+    border-radius: 10px;
+    border: 0.5px solid rgb(70, 69, 69);
+    padding: 10px;
+    box-shadow: 0px 1px 3px rgb(88, 88, 88);
+    resize: none;
+    color: white;
+}
+#btn{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+#contact button{
+    padding: 8px;
+    border-radius: 0px 10px;
+    background-color: rgb(110, 102, 102);
+    color: white;
+    font-weight: bolder;
+    border: none;
+    box-shadow: 0px 2px 3px rgb(68, 66, 66);
+}
+form{
+    margin: 5px;
+}
+footer{
+    background-color: #0f1111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-media img{
+    background-color:  rgb(184, 184, 184);
+    border-radius: 50%;
+    width: 40px;
+}
+.social-media img:hover, #portfolio a:hover{
+     
+        transform: translateY(-5px); 
+        transition: transform 0.3s ease; 
+        cursor: pointer;
+    
+}
+@media (max-width: 500px) {
+    nav {
+        justify-content: space-evenly;
+        font-size: 15px;
+    }
+    .social-media img{
+        width: 30px;
+    }
+    #Name{
+        font-size: 16px;
+    }
+    h2{
+    text-align: center;
+    }
+    #portfolio a{
+        font-size: 13px;
+    }
+}
+
+
+
+
+
+
+
